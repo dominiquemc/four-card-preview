@@ -111,3 +111,14 @@ img {
 }
 
 /* DESKTOP STYLES */
+
+@media (min-width: 650px ) {
+    .container {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .main {
+        grid-column: 2 / 3;
+    }
+}

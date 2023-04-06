@@ -28,7 +28,7 @@ body, .main {
     background-color: var(--lightgray);
 }
 
-html, body {
+body {
     height: 100%;
 }
 
@@ -50,11 +50,12 @@ h3 {
 
 p {
     color: var(--grayblue);
-    font-size: 0.75rem;
+    font-size: 0.95rem;
+    margin-top: 5px;
 }
 
 .detail {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 10px;
     
 }
@@ -65,17 +66,24 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     margin: 25px;
+    height: 100%;
+    flex: 1;
 }
 
 section {
     background-color: var(--white);
     padding: 15px;
-    height: 100%;
     margin-bottom: 20px;
     border-radius: 5px;
-
+    width: 100%;
 }
+
+h1, h2 {
+    letter-spacing: 1px;
+}
+
 
 .one, .two, .three, .four {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

@@ -57,11 +57,10 @@ p {
 .detail {
     font-size: 1rem;
     margin-top: 10px;
-    
+    padding: 5px;
 }
 
 .container {
-    width: 80%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -81,9 +80,8 @@ section {
 }
 
 h1, h2 {
-    letter-spacing: 1px;
+    letter-spacing: 0.7px;
 }
-
 
 .one, .two, .three, .four {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
